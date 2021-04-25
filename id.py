@@ -1,4 +1,3 @@
-
 import amino 
 client=amino.Client()
 client.login(email=email, password=password)
