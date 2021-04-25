@@ -1,4 +1,6 @@
-import amino 
+import amino
+email = input("Email/Почта: ")
+password = input("Password/Пароль: ")
 client=amino.Client()
 client.login(email=email, password=password)
 while True:
